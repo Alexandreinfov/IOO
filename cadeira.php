@@ -43,6 +43,21 @@
 			}
 		}
 
+		public function escreve_linha(){
+			echo "<tr>
+ 				<td>$this->cor</td>
+ 				<td>$this->peso</td>
+ 				<td>$this->material</td>
+ 				<td>$this->durabilidade</td>
+ 				<td>$this->tamanho</td>
+ 				<td>$this->encosto</td>
+ 				<td>$this->regulagem_minima</td>
+ 				<td>$this->regulagem_maxima</td>
+ 				<td>$this->custo</td>
+
+ 	    	</tr>";
+		}
+
 	}
 
  ?>
